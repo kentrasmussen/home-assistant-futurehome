@@ -1,6 +1,6 @@
 # https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
 name: Futurehome
-version: '1.8.0-kent.1'
+version: '1.8.0-kent.2'
 slug: futurehome_local
 description: Local Futurehome Smarthub integration - MQTT 1883 test
 url: 'https://github.com/kentrasmussen/home-assistant-futurehome'
