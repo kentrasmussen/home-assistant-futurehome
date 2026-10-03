@@ -1,0 +1,27 @@
+configuration:
+  hub_ip:
+    name: Hub IP (Optional)
+    description: Leave blank for automatic discovery.
+  fh_username:
+    name: Local API Username
+    description: Your Smarthub local API/MQTT username.
+  fh_password:
+    name: Local API Password
+    description: Your Smarthub local API/MQTT password.
+  tp_username:
+    name: Thingsplex Username (Optional)
+    description: Your Thingsplex username.
+  tp_password:
+    name: Thingsplex Password (Optional)
+    description: Your Thingsplex password.
+  tp_allow_empty:
+    name: Allow Empty Thingsplex Credentials
+    description: Allow empty Thingsplex username and/or password.
+  ignore_availability_reports:
+    name: Ignore Availability Reports
+    description: Sometimes the hub incorrectly reports some devices as down. This setting forces all devices to always be treated as up.
+  demo_mode:
+    name: Demo Mode
+    description: Use a sample recorded state from a real Futurehome Smarthub to simulate devices.
+  show_debug_log:
+    name: Show debug log

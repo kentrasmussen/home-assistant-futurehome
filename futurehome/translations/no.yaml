@@ -1,0 +1,24 @@
+configuration:
+  hub_ip:
+    name: Hub-IP (valgfritt)
+    description: La stå tomt for automatisk oppdagelse.
+  fh_username:
+    name: Lokalt API-brukernavn
+    description: Ditt lokale API-/MQTT-brukernavn for Smarthub.
+  fh_password:
+    name: Lokalt API-passord
+    description: Ditt lokale API-/MQTT-passord for Smarthub.
+  tp_username:
+    name: Thingsplex-brukernavn (valgfritt)
+    description: Ditt brukernavn for Thingsplex.
+  tp_password:
+    name: Thingsplex-passord (valgfritt)
+    description: Ditt passord for Thingsplex.
+  tp_allow_empty:
+    name: Tillat tomme Thingsplex-legitimasjoner
+    description: Tillat tomt Thingsplex-brukernavn og/eller passord.
+  demo_mode:
+    name: Demomodus
+    description: Bruk en forhåndsopptatt tilstand fra en ekte Futurehome Smarthub for å simulere enheter.
+  show_debug_log:
+    name: Vis feilsøkingslogg

@@ -1,0 +1,40 @@
+# https://developers.home-assistant.io/docs/add-ons/configuration#add-on-config
+name: Futurehome
+version: '1.8.0'
+slug: futurehome
+description: Local Futurehome Smarthub integration
+url: 'https://github.com/adrianjagielak/home-assistant-futurehome'
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+init: false
+
+services:
+  - 'mqtt:need'
+
+options:
+  hub_ip: ''
+  fh_username: ''
+  fh_password: ''
+  tp_username: ''
+  tp_password: ''
+  tp_allow_empty: false
+  ignore_availability_reports: false
+  demo_mode: false
+  show_debug_log: false
+
+schema:
+  hub_ip: 'str?'
+  fh_username: 'str?'
+  fh_password: 'password?'
+  tp_username: 'str?'
+  tp_password: 'password?'
+  tp_allow_empty: 'bool?'
+  ignore_availability_reports: 'bool?'
+  demo_mode: 'bool?'
+  show_debug_log: 'bool?'
+
+image: 'ghcr.io/adrianjagielak/{arch}-home-assistant-futurehome'
